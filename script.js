@@ -1,35 +1,3 @@
-//Google Autheticator
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyBN3V6cpPpOrF24YvirY4i3CJU3gPzMLHM",
-  authDomain: "nicolasberquez-14119.firebaseapp.com",
-  projectId: "nicolasberquez-14119",
-  storageBucket: "nicolasberquez-14119.appspot.com",
-  messagingSenderId: "89562951613",
-  appId: "1:89562951613:web:d3c2ad3cbfccea5ba2acd4",
-  measurementId: "G-SCTVWV6EV6"
-};
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
-document.getElementById("login").addEventListener('click',GoogleLogin);
-document.getElementById("logout").addEventListener('click',GoogleLogout);
-
-function GoogleLogin(){
-  console.log("Login call");
-}
-function GoogleLogout(){
-  console.log("Logout call");
-}
-
 // NAVBAR
 let lastScrollTop = 0;
 navbar = document.getElementById('navbar');
