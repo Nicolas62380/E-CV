@@ -96,7 +96,7 @@ header .button:hover a {
 /* ********************** LANGAGES *********************** */
 #langages {
   padding: 80px 80px 80px 50px;
-  margin: 20px 0 0 6%;
+  margin: 150px 0 0 6%;
   height: 620px;
   width: 47%;
   max-width: 640px;
@@ -621,4 +621,13 @@ footer p {
   .flip-box-back p {
     font-size: 0.7em;
   }
+}
+
+/*custom-css*/
+.container_buttons{
+  display:flex;
+  flex :3;
+  margin-top:50px;
+  margin-bottom:50px;
+  justify-content:center;
 }
